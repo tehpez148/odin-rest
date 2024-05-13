@@ -13,4 +13,5 @@ menu.addEventListener('click', () => alert("menu is happening"));
 
 about.addEventListener('click', () => alert("about is happening"));
 
+console.log("test")
 
