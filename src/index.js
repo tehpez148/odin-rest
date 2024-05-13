@@ -39,3 +39,4 @@ about.addEventListener('click', () => {
 
 console.log("test");
 
+homeFunction();

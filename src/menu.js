@@ -1,11 +1,19 @@
 const menuFunction = () => {
     
     const mainBox = document.getElementById('content');
+    const topBox = document.createElement('div');
+    topBox.classList.add('topper');
 
     const menuHead = document.createElement('h1');
     menuHead.textContent = "Select Suitable Silly Sausage";
+    const menuSecond = document.createElement('h2');
+    menuSecond.textContent = "Browse our bountiful brace of bouncy sausages";
 
-    mainBox.appendChild(menuHead);
+
+
+    topBox.appendChild(menuHead);
+    topBox.appendChild(menuSecond);
+    mainBox.appendChild(topBox);
 
 
 

@@ -3,11 +3,19 @@ const aboutFunction = () => {
 
 
     const mainBox = document.getElementById('content');
+    const topBox = document.createElement('div');
+    topBox.classList.add('topper');
 
     const aboutHead = document.createElement('h1');
     aboutHead.textContent="Stats Surrounding Silly Sausages?!";
+    const aboutSecond = document.createElement('h2');
+    aboutSecond.textContent = "Interested in a summary of our porky endevours?"
 
-    mainBox.appendChild(aboutHead);
+
+
+    topBox.appendChild(aboutHead)
+    topBox.appendChild(aboutSecond);
+    mainBox.appendChild(topBox);
 
 
 };
