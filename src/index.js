@@ -1,6 +1,9 @@
 import './style.css';
 
 import {homeFunction} from "./home";
+import {menuFunction} from "./menu";
+import {aboutFunction} from "./about";
+
 //function to empty the DOM before replacing it with new select elements
 function empty(element) {
     while(element.firstElementChild) {
@@ -22,9 +25,15 @@ home.addEventListener('click', () => {
 });
 
 
-menu.addEventListener('click', () => alert("menu is happening"));
+menu.addEventListener('click', () => {
+    empty(mainBox);
+    menuFunction();
+});
 
-about.addEventListener('click', () => alert("about is happening"));
+about.addEventListener('click', () => {
+    empty(mainBox);
+    aboutFunction();
+});
 
 console.log("test");
 
