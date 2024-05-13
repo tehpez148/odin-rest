@@ -1,1 +1,1 @@
-console.log("boobies");
+(()=>{console.log("boobies");const e=document.getElementById("home"),n=document.getElementById("menu"),t=document.getElementById("about");e.addEventListener("click",(()=>alert("home is happening"))),n.addEventListener("click",(()=>alert("menu is happening"))),t.addEventListener("click",(()=>alert("about is happening")))})();
