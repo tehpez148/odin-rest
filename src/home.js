@@ -6,6 +6,9 @@ const homeFunction = () => {
     const mainBox = document.getElementById('content');
     const topBox = document.createElement('div');
     topBox.classList.add('topper');
+    const botBox = document.createElement('div');
+    botBox.classList.add('bottom');
+
 
     //const innerBox = document.createElement('div');
 
