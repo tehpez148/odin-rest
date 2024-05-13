@@ -1,5 +1,6 @@
 import './style.css';
 
+
 import {homeFunction} from "./home";
 import {menuFunction} from "./menu";
 import {aboutFunction} from "./about";
@@ -28,6 +29,7 @@ home.addEventListener('click', () => {
 menu.addEventListener('click', () => {
     empty(mainBox);
     menuFunction();
+   
 });
 
 about.addEventListener('click', () => {
