@@ -48,6 +48,9 @@ button:hover{
     width: 80%;
     align-self: center;
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -60,4 +63,11 @@ img {
 
 body {
     background-color: burlywood;
+}
+
+#menuitems{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+
 }
